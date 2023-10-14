@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --taxt: #434455;
+  --subtle-taxt: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background-color: var(--white);
+  color: #434455;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #404bbf;
+}
+
+button:focus,
+button:active {
+  background-color: #404bbf;
+}
+
+a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--primary-brand);
+}
+
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #ffffff;
+}
+
+p {
+  color: #434455;
+}
+
+address {
+  font-style: normal;
+}
+
+.footer__logo,
+.header__logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.footer__logo span,
+.header__logo span {
+  color: #2e2f42;
+}
+
+.header__nav,
+.header__list-item,
+.header__link,
+.header__list {
+  letter-spacing: 0.02em;
+}
+
+.header__link {
+  color: var(--dark);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.header__link:hover,
+.header__link:active {
+  color: #404bbf;
+}
+
+.header__contacts-item {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.hero-section {
+  background-color: var(--dark);
+}
+
+.hero-section__title {
+  color: var(--white);
+  text-align: center;
+}
+
+.hero-section__btn {
+  color: var(--white);
+  background-color: var(--primary-brand);
+  background: var(--IRIS, #4d5ae5);
+}
+
+.item__description {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.our-team {
+  background-color: var(--light);
+}
+
+.our-team__position,
+.item-description {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer__logo span {
+  color: #f4f4fd;
+}
+
+.footer__description {
+  color: var(--light);
+  letter-spacing: 0.02em;
+}
