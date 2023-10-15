@@ -180,6 +180,10 @@ address {
 .header__list {
   display: flex;
   gap: 40px;
+}
+
+.header__link,
+.header__logo {
   padding: 24px 0;
 }
 
@@ -332,11 +336,6 @@ address {
 
 .footer .container {
   align-items: flex-start;
-}
-
-.footer__logo,
-.footer__logo span {
-  display: inline-block;
 }
 
 .footer__logo {
