@@ -108,8 +108,15 @@ address {
   font-style: normal;
 }
 
-.conteiner {
+.section {
   padding: 120px 0;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 .header {
@@ -201,6 +208,7 @@ address {
 
 .about-section {
   display: flex;
+  justify-content: center;
   padding: 120px 156px;
 }
 
