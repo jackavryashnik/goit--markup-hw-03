@@ -134,7 +134,6 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .header__contacts-list {
@@ -145,8 +144,9 @@ address {
 .footer__logo,
 .header__logo {
   font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
   text-transform: uppercase;
+  display: inline-block;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -170,6 +170,7 @@ address {
   display: flex;
   align-items: center;
   gap: 76px;
+  padding: 24px 0;
 }
 
 .header__list {
@@ -228,7 +229,7 @@ address {
   justify-content: center;
 }
 
-.about-section__title {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -243,7 +244,6 @@ address {
   display: flex;
   flex-direction: column;
   width: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
 }
 
 .our-team {
@@ -273,7 +273,7 @@ address {
 .item-container {
   padding: 0 16px;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 32px 0;
 }
 
 .item-title {
@@ -290,23 +290,18 @@ address {
   color: #434455;
 }
 
-.portfolio__list,
-.portfolio__sublist {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
 }
 
-.portfolio__list {
-  flex-direction: column;
+.portfolio__list .list__item {
+  width: calc((100% - 48px) / 3);
 }
 
-.portfolio__sublist {
-  flex-direction: row;
-}
-
-.portfolio__sublist .item-container {
+.portfolio__list .item-container {
   text-align: start;
 }
 
@@ -324,7 +319,6 @@ address {
 }
 
 .footer__logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
 
