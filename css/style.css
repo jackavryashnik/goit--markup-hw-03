@@ -141,6 +141,10 @@ address {
   gap: 40px;
 }
 
+.header__logo {
+  padding: 24px 0;
+}
+
 .footer__logo,
 .header__logo {
   font-family: 'Raleway', sans-serif;
@@ -170,7 +174,6 @@ address {
   display: flex;
   align-items: center;
   gap: 76px;
-  padding: 24px 0;
 }
 
 .header__list {
@@ -230,7 +233,17 @@ address {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .about-section__list {
@@ -271,9 +284,13 @@ address {
 }
 
 .item-container {
-  padding: 0 16px;
+  padding: 32px 0;
   text-align: center;
-  margin: 32px 0;
+}
+
+.portfolio .item-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .item-title {
@@ -305,10 +322,6 @@ address {
   text-align: start;
 }
 
-.list__item img {
-  margin-bottom: 32px;
-}
-
 .footer {
   padding: 100px 0;
   background-color: var(--dark);
@@ -319,6 +332,7 @@ address {
 }
 
 .footer__logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
