@@ -141,15 +141,16 @@ address {
   gap: 40px;
 }
 
-.header__logo, .logo-span {
-  padding: 24px 0;
+.header__logo,
+.footer__logo,
+.logo-span {
+  display: inline-block;
 }
 
 .footer__logo,
 .header__logo {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  display: inline-block;
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
@@ -179,6 +180,7 @@ address {
 .header__list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header__link {
