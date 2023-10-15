@@ -92,6 +92,7 @@ a:focus {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 ul,
@@ -116,7 +117,7 @@ address {
   padding: 120px 0;
 }
 
-.conteiner {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,12 +126,15 @@ address {
   padding: 0 15px;
 }
 
-.header-conteiner {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 24px 156px;
-  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header__contacts-list {
@@ -266,7 +270,7 @@ address {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.item-conteiner {
+.item-container {
   padding: 0 16px;
   text-align: center;
   margin-bottom: 32px;
@@ -302,7 +306,7 @@ address {
   flex-direction: row;
 }
 
-.portfolio__sublist .item-conteiner {
+.portfolio__sublist .item-container {
   text-align: start;
 }
 
@@ -315,11 +319,12 @@ address {
   background-color: var(--dark);
 }
 
-.footer .conteiner {
+.footer .container {
   align-items: flex-start;
 }
 
 .footer__logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
