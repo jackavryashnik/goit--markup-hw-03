@@ -351,3 +351,7 @@ address {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.web {
+  display: inline-block;
+}
