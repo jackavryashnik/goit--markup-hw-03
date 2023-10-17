@@ -118,9 +118,6 @@ address {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -132,6 +129,7 @@ address {
 
 .header-container {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -174,7 +172,6 @@ address {
 .header__nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header__list {
@@ -218,11 +215,12 @@ address {
   color: var(--white);
   text-align: center;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .hero-section__btn {
   cursor: pointer;
-  margin-top: 48px;
+  margin: 0 auto;
   padding: 16px 32px;
   color: var(--white);
   background-color: var(--primary-brand);
@@ -352,6 +350,8 @@ address {
   max-width: 264px;
 }
 
-.web {
-  display: inline-block;
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
